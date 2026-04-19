@@ -19,11 +19,11 @@ Inspired by top-tier native photo apps and modern e-commerce product viewers, Lu
 Install Luxbox and its peer dependency (`lucide-react` for icons) via your favorite package manager:
 
 ```bash
-npm install luxbox lucide-react
+npm install @palumu/luxbox lucide-react
 # or
-yarn add luxbox lucide-react
+yarn add @palumu/luxbox lucide-react
 # or
-pnpm add luxbox lucide-react
+pnpm add @palumu/luxbox lucide-react
 ```
 
 ## ⚠️ Tailwind CSS Setup (Required)
@@ -35,7 +35,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     // Add this line to parse Luxbox styles!
-    "./node_modules/luxbox/dist/**/*.{js,mjs}"
+    "./node_modules/@palumu/luxbox/dist/**/*.{js,mjs}"
   ],
   theme: {
     extend: {},
@@ -48,7 +48,7 @@ module.exports = {
 
 ```tsx
 import React from 'react';
-import { Luxbox, GalleryImage } from 'luxbox';
+import { Luxbox, GalleryImage } from '@palumu/luxbox';
 
 const myImages: GalleryImage[] = [
   { 

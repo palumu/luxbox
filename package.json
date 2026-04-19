@@ -1,5 +1,5 @@
 {
-  "name": "luxbox",
+  "name": "@palumu/luxbox",
   "version": "1.0.0",
   "description": "A premium, minimalist React image gallery and lightbox.",
   "main": "./dist/Luxbox.js",
